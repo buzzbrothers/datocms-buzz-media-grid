@@ -1,0 +1,23 @@
+:root {
+  --color-main: #000000;
+  --color-accent: #ff0000;
+  --color-complementary: #00ff00;
+  --color-success: #00ff00;
+  --color-error: #ff0000;
+  --color-warning: #ff0000;
+  --color-info: #0000ff;
+  --color-danger: #ee6e6e;
+
+  --transition-slow: 0.3s all ease-in-out;
+  --transition: 0.2s all ease-in-out;
+  --transition-fast: 0.1s all ease-in-out;
+
+  --radius-small: 2px;
+  --radius: 4px;
+  --radius-large: 6px;
+
+  --depth:
+    0px 1px 2.2px rgba(0, 0, 0, 0.008), 0px 2.5px 5.3px rgba(0, 0, 0, 0.012),
+    0px 4.6px 10px rgba(0, 0, 0, 0.015), 0px 8.3px 17.9px rgba(0, 0, 0, 0.018),
+    0px 15.5px 33.4px rgba(0, 0, 0, 0.022), 0px 37px 80px rgba(0, 0, 0, 0.03);
+}

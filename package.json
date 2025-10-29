@@ -1,0 +1,57 @@
+{
+  "name": "@buzzbrothers/datocms-plugin-buzz-media-grid",
+  "description": "DatoCMS Plugin Buzz Media Grid",
+  "homepage": "https://github.com/buzzbrothers/datocms-buzz-media-grid",
+  "version": "0.0.1-beta.1",
+  "author": "Buzzbrothers <tech@buzzbrothers.com> (https://buzzbrothers.com)",
+  "type": "module",
+  "keywords": [
+    "datocms-plugin",
+    "datocms",
+    "buzzbrothers",
+    "media",
+    "grid"
+  ],
+  "datoCmsPlugin": {
+    "title": "Buzz Media Grid",
+    "coverImage": "docs/datocms-plugin-buzz-media-grid-cover.png",
+    "previewImage": "docs/datocms-plugin-buzz-media-grid-cover.png",
+    "entryPoint": "dist/index.html",
+    "permissions": [
+      "currentUserAccessToken"
+    ]
+  },
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "npm publish --access public --tag beta",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@datocms/cda-client": "^0.2.2",
+    "@datocms/cma-client": "^3.3.15",
+    "@datocms/cma-client-browser": "^3.3.15",
+    "@blackbyte/sugar": "^1.0.0-beta.4",
+    "@lotsof/theme": "^1.0.0-alpha.33",
+    "datocms-plugin-sdk": "^2.0.0",
+    "datocms-react-ui": "^2.0.15",
+    "lodash": "^4.17.21",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-css-order": "^2.1.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}

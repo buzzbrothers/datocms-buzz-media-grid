@@ -1,0 +1,48 @@
+.delete-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none !important;
+  height: 1em;
+  font-size: 16px;
+
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+
+  * {
+    pointer-events: none;
+  }
+  &:focus-within * {
+    pointer-events: all;
+  }
+
+  & > p:before {
+    display: block;
+    position: relative;
+    top: 0.1em;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    width: 0;
+    overflow: hidden;
+    content: attr(delete-label);
+    font-size: 0.8em;
+    white-space: nowrap;
+  }
+
+  &:hover > p:before {
+    opacity: 1;
+    width: calc-size(auto, size);
+  }
+
+  &:focus-within > p:before {
+    opacity: 1;
+    width: calc-size(auto, size);
+    content: attr(confirm-label);
+    color: var(--color-error);
+  }
+  &:focus-within {
+    color: var(--color-error);
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "exclude": [".submodules", "node_modules", "dist"],
+  "compilerOptions": {
+    "esModuleInterop": true
+  }
+}
