@@ -1,9 +1,9 @@
 // @ts-nocheck
 
+import { get } from '@blackbyte/sugar/object'
 import { uniqid } from '@blackbyte/sugar/string'
 import { buildClient } from '@datocms/cma-client-browser'
 import { Canvas } from 'datocms-react-ui'
-import get from 'lodash/get'
 import { createRef, useRef, useState } from 'react'
 import DeleteButton from '../ui/deleteButton/deleteButton'
 import './mediaGrid.css'

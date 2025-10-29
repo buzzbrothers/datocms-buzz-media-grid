@@ -7,7 +7,7 @@ This plugin allows you to create some grids with customizable columns and rows c
   - [Usage](#usage)
   - [JSON output](#json-output)
 
-![DatoCMS Plugin Buzz Media Grid Preview](./docs//datocms-plugin-buzz-media-grid-preview.webp)
+![DatoCMS Plugin Buzz Media Grid Preview](./docs/datocms-plugin-buzz-media-grid-preview.webp)
 
 ## Features
 
@@ -24,7 +24,7 @@ To create a media grid, simply follow these steps:
 3. Update the columns and rows count if wanted
 4. Click on `Save field`
 
-![DatoCMS Plugin Buzz Media Grid Configuration](./docs//datocms-plugin-buzz-media-grid-configuration.webp)
+![DatoCMS Plugin Buzz Media Grid Configuration](./docs/datocms-plugin-buzz-media-grid-configuration.webp)
 
 ## JSON output
 
