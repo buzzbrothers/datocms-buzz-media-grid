@@ -2,7 +2,7 @@
   "name": "@buzzbrothers/datocms-plugin-buzz-media-grid",
   "description": "DatoCMS Plugin Buzz Media Grid",
   "homepage": "https://github.com/buzzbrothers/datocms-buzz-media-grid",
-  "version": "0.0.1-beta.1",
+  "version": "0.0.3",
   "author": "Buzzbrothers <tech@buzzbrothers.com> (https://buzzbrothers.com)",
   "type": "module",
   "keywords": [
@@ -15,7 +15,7 @@
   "datoCmsPlugin": {
     "title": "Buzz Media Grid",
     "coverImage": "docs/datocms-plugin-buzz-media-grid-cover.png",
-    "previewImage": "docs/datocms-plugin-buzz-media-grid-cover.png",
+    "previewImage": "docs/datocms-plugin-buzz-media-grid-preview.mp4",
     "entryPoint": "dist/index.html",
     "permissions": [
       "currentUserAccessToken"
@@ -29,7 +29,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "publish": "npm publish --access public --tag beta",
+    "publish": "npm publish --access public",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
